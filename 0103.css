@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.page{
+    width: 1920px;
+    height: 1948px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.logo{
+    margin-left: 405px;
+    padding-top: 9px;
+}
+
+.menu{
+    display: flex;
+    margin-right: 405px;
+}
+
+.menu li{
+    width: 80px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.menu li a{
+    color: #8D8D8D;
+    display: block;
+    text-decoration: none;
+}
+
+.box{
+    background-color: #916000;
+    height: 52px;
+}
+
+.menu2{
+    display: flex;
+    padding-left: 405px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.menu2 li{
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 28px;
+}
+
+.menu2 li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.box2{
+    display: flex;
+    margin-top: 80px;
+}
+
+.pic{
+    padding-left: 405px;
+}
+
+.jpg1{
+    width: 730px;
+    height: 460px;
+    padding-bottom: 30px;
+}
+
+.jpg2{
+    width: 350px;
+    height: 640px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.word{
+    width: 350px;
+}
+
+.word h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.p1{
+    font-size: 20px;
+}
+
+.p2{
+    font-size: 20px;
+    margin-left: 0;
+    padding-top: 32px;
+    padding-bottom: 12px;
+}
+
+.buy{
+    display: flex
+}
+
+.b1{
+    width: 160px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #916000;
+}
+
+.buy p{
+    font-size: 16px;
+    color: #495057;
+    padding: 16px;
+}
+
+.b2{
+    width: 190px;
+    height: 50px;
+    background-color: #6C4700;
+    border: 2px solid #6C4700;
+}
+
+.b2 p{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.w2{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.p3{
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.word h2{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.p4{
+    font-size: 16px;
+}
+
+.box3{
+    width: 1920px;
+    height: 80px;
+    background-color: #916000;
+    display: flex;
+}
+
